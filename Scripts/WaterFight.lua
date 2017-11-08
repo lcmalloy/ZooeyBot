@@ -3,7 +3,7 @@ if character_1.charge_gauge >= 100 then
 else
   DisableChargeAttack()
 end
-if character_1.name == "<Malloy>" then
+if character_1.name == "Malloy" then
   character_1:UseSkill(1)
   character_1:UseSkill(2)
   character_1:UseSkill(3)
