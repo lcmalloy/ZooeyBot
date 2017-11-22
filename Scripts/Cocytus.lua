@@ -4,7 +4,6 @@ else
   EnableChargeAttack()
 end
 character_2:UseSkill(2)
-
 if battle == 1 then
 end
 if battle == 2 then
