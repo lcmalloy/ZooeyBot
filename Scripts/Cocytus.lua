@@ -3,10 +3,11 @@ if battle < 3 then
 else
   EnableChargeAttack()
 end
-character_2:UseSkill(2)
 if battle == 1 then
+  character_2:UseSkill(2)
 end
 if battle == 2 then
+  character_2:UseSkill(2)
 end
 if battle == 3 then
   character_1:UseSkill(2)
@@ -17,3 +18,4 @@ if battle == 3 then
   character_3:UseSkill(1)
   character_4:UseSkill(1)
 end
+character_2:UseSkill(2)
